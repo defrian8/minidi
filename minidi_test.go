@@ -2,8 +2,9 @@ package minidi_test
 
 import (
 	"fmt"
-	"minidi"
 	"testing"
+
+	"github.com/defrian8/minidi"
 )
 
 type Logger struct{ prefix string }
