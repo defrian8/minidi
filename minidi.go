@@ -128,7 +128,7 @@ func (m *miniDi) Stop() {
 func (m *miniDi) Get(id string) interface{} {
 	svc, ok := m.services[id]
 	if !ok {
-		panic(fmt.Sprintf("[minidi] service '%s' tidak ditemukan", id))
+		panic(fmt.Sprintf("[minidi] service '%s' not found", id))
 	}
 	return svc
 }
