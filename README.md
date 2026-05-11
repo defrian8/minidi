@@ -81,7 +81,7 @@ if err := container.Start(); err != nil {
     panic(err)
 }
 
-di.Stop()
+container.Stop()
 ```
 ### Example
 ```go
